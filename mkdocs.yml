@@ -1,0 +1,60 @@
+site_name: abschluss.jetzt — Projektübersicht
+site_description: Meta-Dokumentation über das gesamte Projekt des gemeinnützigen Bildungsträgers
+docs_dir: docs
+site_dir: site
+
+nav:
+  - Home: README.md
+  - Vision & Geschäftsplan:
+      - Übersicht: vision/uebersicht.md
+      - Timeline: vision/timeline.md
+      - Finanzierung: vision/finanzierung.md
+      - Rollen & Zielgruppen: vision/rollen-und-zielgruppen.md
+  - Außenkommunikation:
+      - Übersicht: aussenkommunikation/uebersicht.md
+      - Lehrplan & Angebot: aussenkommunikation/lehrplan-und-angebot.md
+      - Zielgruppenansprache: aussenkommunikation/zielgruppen-ansprache.md
+      - Website & Präsentationen: aussenkommunikation/website-und-praesentationen.md
+  - Technik:
+      - Overview: technik/overview.md
+      - Infrastructure: technik/infrastructure.md
+      - Education Platform: technik/education-platform.md
+      - Learning Paths Backend: technik/learning-paths-backend.md
+      - Learning Paths Frontend: technik/learning-paths-frontend.md
+      - Learn IT Berlin: technik/learn-it-berlin.md
+      - Crowdfunding: technik/crowdfunding.md
+      - ADRs: technik/adrs.md
+  - Qualitätsmanagement & AZAV:
+      - Übersicht: qm/uebersicht.md
+      - Prozesse: qm/prozesse.md
+      - Zugangskontrolle: qm/zugangskontrolle.md
+      - Dokumentenlenkung: qm/dokumentenlenkung.md
+
+theme:
+  name: material
+  language: de
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - def_list
