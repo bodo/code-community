@@ -94,44 +94,60 @@ All servers connected via Headscale VPN for administration. Wildcard SSL `*.absc
 ```mermaid
 graph LR
     subgraph Learning["Learning Platform"]
-        BO[bodo-os<br>Django API] -->|serves| MP[my-paths<br>Vue Frontend]
-        WISO[WISO Quiz<br>Vue App]
+        BO["bodo-os<br>Django API"] -->|serves| MP["my-paths<br>Vue Frontend"]
+        WISO["WISO Quiz<br>Vue App"]
     end
 
     subgraph Community
-        LIB[learn-IT-berlin<br>Laravel Meetups]
+        LIB["learn-IT-berlin<br>Laravel Meetups"]
     end
 
     subgraph Fundraising
-        CF[crowdfund<br>C++ / Next.js]
+        CF["crowdfund<br>C++ / Next.js"]
     end
 
     subgraph Operations["Education Operations"]
-        KC[Keycloak SSO]
-        OP[OpenProject]
-        BS[BookStack]
-        N8N[n8n]
-        CRM[CiviCRM]
-        NC[Nextcloud]
+        KC["Keycloak SSO"]
+        OP["OpenProject"]
+        BS["BookStack"]
+        N8N["n8n"]
+        CRM["CiviCRM"]
+        NC["Nextcloud"]
     end
 
     subgraph Marketing
-        MAU[Mautic]
-        MAT[Matomo]
-        WEB[Websites<br>Astro]
+        MAU["Mautic"]
+        MAT["Matomo"]
+        WEB["Websites<br>Astro"]
     end
 
     subgraph Shared
-        TH[@abschluss/theme]
-        INF[Infrastructure<br>Ansible]
+        TH["abschluss-theme<br>DaisyUI"]
+        INF["Infrastructure<br>Ansible"]
     end
 
-    KC -->|SSO| BO & BS & OP & N8N & CRM & NC
-    TH -->|branding| MP & WISO & WEB
+    KC -->|SSO| BO
+    KC -->|SSO| BS
+    KC -->|SSO| OP
+    KC -->|SSO| N8N
+    KC -->|SSO| CRM
+    KC -->|SSO| NC
+    TH -->|branding| MP
+    TH -->|branding| WISO
+    TH -->|branding| WEB
     MAU -->|leads| CRM
-    N8N -->|automation| MAU & OP & CRM
+    N8N -->|automation| MAU
+    N8N -->|automation| OP
+    N8N -->|automation| CRM
     MAT -.->|analytics| WEB
-    INF -->|manages| KC & BS & OP & N8N & CRM & NC & MAU & MAT
+    INF -->|manages| KC
+    INF -->|manages| BS
+    INF -->|manages| OP
+    INF -->|manages| N8N
+    INF -->|manages| CRM
+    INF -->|manages| NC
+    INF -->|manages| MAU
+    INF -->|manages| MAT
     OP -->|QM/CAPA| BS
 ```
 
