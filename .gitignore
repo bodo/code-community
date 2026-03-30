@@ -10,3 +10,7 @@ logo_*
 logo-*
 organization.code-workspace
 site/
+packages
+ansible-vault
+bpw
+multiple-choice-app

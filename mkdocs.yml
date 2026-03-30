@@ -10,6 +10,9 @@ nav:
       - Timeline: vision/timeline.md
       - Finanzierung: vision/finanzierung.md
       - Rollen & Zielgruppen: vision/rollen-und-zielgruppen.md
+      - Wirkung & Nachhaltigkeit: vision/wirkung-und-nachhaltigkeit.md
+      - Gesellschaftliche Verantwortung: vision/gesellschaftliche-verantwortung.md
+      - Code of Conduct: vision/code-of-conduct.md
   - Außenkommunikation:
       - Übersicht: aussenkommunikation/uebersicht.md
       - Lehrplan & Angebot: aussenkommunikation/lehrplan-und-angebot.md
@@ -23,9 +26,15 @@ nav:
       - Learning Paths Frontend: technik/learning-paths-frontend.md
       - Learn IT Berlin: technik/learn-it-berlin.md
       - Crowdfunding: technik/crowdfunding.md
+      - CI/CD: technik/ci-cd.md
+      - Websites & Kommunikation: technik/websites-und-kommunikation.md
+      - Design System: technik/design-system.md
       - ADRs: technik/adrs.md
+  - Reports:
+      - ITSM-Framework-Vergleich: reports/itsm-framework-vergleich.md
   - Qualitätsmanagement & AZAV:
       - Übersicht: qm/uebersicht.md
+      - Prozessmodellierung: qm/prozessmodellierung.md
       - Prozesse: qm/prozesse.md
       - Zugangskontrolle: qm/zugangskontrolle.md
       - Dokumentenlenkung: qm/dokumentenlenkung.md

@@ -1,87 +1,78 @@
 # Kernprozesse des Bildungsträgers
 
-Die folgenden Prozesse bilden das Rückgrat des QM-Systems und müssen für die AZAV-Zertifizierung dokumentiert, umgesetzt und kontinuierlich verbessert werden.
+Die vollständige Prozessdokumentation mit Ablaufdiagrammen, Verantwortlichkeiten und Formularen liegt im **[QM-Handbuch](https://qm.abschluss.jetzt)** (Sektion 03-Kernprozesse). Diese Seite fasst die Prozesse zusammen und ordnet sie dem gewählten Framework zu.
+
+**Methodik:** Wir arbeiten nach [FitSM mit ITIL-Terminologie](prozessmodellierung.md). Die FitSM-Prozessnummern und ITIL-Äquivalente sind bei jedem Prozess angegeben.
 
 ## 1. Teilnehmeraufnahme & Beratung
 
+> FitSM: SPM (Service Portfolio Management) + SLM | ITIL: Service Catalogue + Service Request Management
+
 **Ziel:** Geeignete Teilnehmer identifizieren und informiert aufnehmen.
 
-**Ablauf:**
-1. Erstkontakt (Website, Flyer, Empfehlung, JobCenter)
-2. Beratungsgespräch (Voraussetzungen, Ziele, Zeitrahmen)
-3. Einstufung (IHK-Prüfungstermin, Vorwissen, Förderbedarf)
-4. Aufnahme (Keycloak-Account, Kohorten-Zuweisung, Onboarding)
+**Ablauf:** Erstkontakt → Beratungsgespräch → Einstufung → Aufnahme (Keycloak-Account, Kohorten-Zuweisung, Onboarding)
 
-**Dokumentation:** CiviCRM (Kontaktdaten, Beratungsprotokoll), Keycloak (Account, Gruppenzugehörigkeit)
+**Werkzeuge:** CiviCRM (Kontaktdaten, Beratungsprotokoll), Keycloak (Account, Gruppenzugehörigkeit)
 
-**AZAV-Relevanz:** Nachweis der Eignung der Teilnehmer, dokumentiertes Aufnahmeverfahren
+**Detail:** QM-Handbuch → 03-kernprozesse/teilnehmeraufnahme | Formular: F-01 Beratungsprotokoll
 
 ## 2. Maßnahmedurchführung
 
+> FitSM: SLM (Service Level Management) | ITIL: Service Delivery + Service Level Management
+
 **Ziel:** Qualitativ hochwertige Prüfungsvorbereitung durchführen.
 
-**Bausteine:**
-- Nachhilfe (regelmäßig, Kleingruppen oder 1-zu-1)
-- Prüfungsvorbereitung (Intensivphasen 4x/Jahr in Prüfungsmonaten)
-- Coaching & Mentoring (persönliche Begleitung)
-- IHK-Abschlussprojekt-Betreuung (Planung bis Präsentation)
-- AI-Integration (KI-Tools als Lernhilfe und Lehrinhalt)
+**Bausteine:** Nachhilfe, Prüfungsvorbereitung, Coaching & Mentoring, IHK-Abschlussprojekt-Betreuung, AI-Integration
 
-**Werkzeuge:** Nextcloud (Materialien, Kommunikation), BookStack (Lernmaterialien), Lernplattform (bodo-os/my-paths)
+**Werkzeuge:** Nextcloud (Materialien), BookStack (Lernmaterialien), Lernplattform (bodo-os/my-paths)
 
-**AZAV-Relevanz:** Qualifiziertes Lehrpersonal, arbeitsmarktrelevante Inhalte, angemessenes Betreuungsverhältnis
+**Detail:** QM-Handbuch → 03-kernprozesse/massnahmedurchfuehrung | 06-massnahmen/massnahmenkonzept
 
 ## 3. Erfolgsmonitoring
 
+> FitSM: CSI (Continual Service Improvement) + SLM | ITIL: Measurement & Reporting + Continual Improvement
+
 **Ziel:** Wirksamkeit der Maßnahmen messen und nachweisen.
 
-**Kennzahlen:**
-- Bestehensquote IHK-Prüfung (AP1, AP2)
-- Teilnehmer-Zufriedenheit (Feedbackbogen)
-- Abbruchquote
-- Absolventenverbleib (Integration in Arbeitsmarkt nach 6/12 Monaten)
+**Kennzahlen:** Bestehensquote (>80%), Teilnehmer-Zufriedenheit (>4.0/5.0), Abbruchquote (<15%), Absolventenverbleib (>70% in IT-Stelle nach 6 Monaten)
 
 **Werkzeuge:** OpenProject (Tracking), n8n (automatisierte Erinnerungen), CiviCRM (Absolventendaten)
 
-**AZAV-Relevanz:** Integrationsquote ist zentrales AZAV-Kriterium
+**Detail:** QM-Handbuch → 03-kernprozesse/erfolgsmonitoring | 08-verbesserung/kennzahlen
 
 ## 4. Feedbackschleifen
 
+> FitSM: CSI (Continual Service Improvement) | ITIL: Continual Improvement + Service Request Management
+
 **Ziel:** Systematisches Feedback einholen und einarbeiten.
 
-**Quellen:**
-- **Teilnehmerbefragung** -- nach jeder Intensivphase und am Ende der Maßnahme
-- **Dozentenevaluation** -- gegenseitiges Feedback im Dozententeam
-- **Betriebe-Feedback** -- Rückmeldung von Ausbildungsbetrieben zur Vorbereitung ihrer Azubis
-- **Alumni-Feedback** -- Erfahrungen nach der Prüfung und im Beruf
+**Quellen:** Teilnehmerbefragung, Dozentenevaluation, Betriebe-Feedback, Alumni-Feedback
 
-**Werkzeuge:** Nextcloud Forms (Umfragen), OpenProject (Auswertung, Maßnahmen), n8n (automatisierte Versendung)
+**Werkzeuge:** Nextcloud Forms, OpenProject, n8n (automatisierte Versendung)
+
+**Detail:** QM-Handbuch → 03-kernprozesse/feedbackschleifen | Formulare: F-02 Teilnehmer-Feedback, F-03 Dozenten-Evaluation
 
 ## 5. Beschwerdemanagement
 
+> FitSM: ISM (Incident & Service Request Management) | ITIL: Incident Management
+
 **Ziel:** Beschwerden strukturiert erfassen, bearbeiten und lösen.
 
-**Ablauf:**
-1. Beschwerde eingeht (E-Mail, persönlich, Formular)
-2. Erfassung in OpenProject als Ticket
-3. Zuordnung an Verantwortlichen
-4. Bearbeitung mit Frist
-5. Rückmeldung an Beschwerdeführer
-6. Dokumentation der Lösung und ggf. Ableitung von Verbesserungsmaßnahmen
+**Ablauf:** Eingang → Erfassung (OpenProject-Ticket) → Zuordnung → Bearbeitung mit Frist → Rückmeldung → Dokumentation + ggf. CAPA
 
-**AZAV-Relevanz:** Dokumentiertes Beschwerdemanagement ist AZAV-Pflicht
+**Detail:** QM-Handbuch → 03-kernprozesse/beschwerdemanagement | Formular: F-04 Beschwerde
 
 ## 6. Kontinuierlicher Verbesserungsprozess (KVP)
 
+> FitSM: CSI (Continual Service Improvement) | ITIL: Continual Improvement
+
 **Ziel:** Systematische Verbesserung aller Prozesse.
 
-**Instrumente:**
-- **Interne Audits** -- regelmäßige Überprüfung der Prozesse (OpenProject Audit-Checklisten)
-- **Management-Reviews** -- Quartalsweise Bewertung der QM-Kennzahlen
-- **CAPA** (Corrective and Preventive Actions) -- Tracking in OpenProject
-- **Lessons Learned** -- nach jeder Prüfungsphase
+**Instrumente:** Interne Audits (halbjährlich), Management-Reviews (quartalsweise), CAPA-Tracking, Lessons Learned
 
-**AZAV-Relevanz:** Nachweis der kontinuierlichen Verbesserung ist Kern der AZAV
+**Werkzeuge:** OpenProject (Audits, CAPA), n8n (Audit-Erinnerungen), BookStack (Prozessdoku)
+
+**Detail:** QM-Handbuch → 08-verbesserung/ (Kennzahlen, Internes Audit, Management-Review, KVP/CAPA) | Formulare: F-05 Audit-Checkliste, F-06 Management-Review, F-07 CAPA
 
 ## Prozess-Werkzeug-Matrix
 
@@ -95,5 +86,6 @@ Die folgenden Prozesse bilden das Rückgrat des QM-Systems und müssen für die 
 
 ## Quellen
 
-- `../../organization/presentation/index.html` -- Slides: QM/Prozesse (Prozessdesign, Qualitätssicherung, AZAV-Vorbereitung)
-- `../../infrastructure/docs/education-platform.md` -- OpenProject AZAV-Feature-Mapping, n8n Workflows
+- [QM-Handbuch](https://qm.abschluss.jetzt) -- Vollständige Prozessdokumentation mit Ablaufdiagrammen
+- [Prozessmodellierung](prozessmodellierung.md) -- Framework-Entscheidung (FitSM + ITIL)
+- `../../website/qm.abschluss.jetzt/docs/03-kernprozesse/` -- Quellcode der Prozessdokumentation

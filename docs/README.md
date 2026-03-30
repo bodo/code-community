@@ -26,6 +26,9 @@ Mission, Organisationsform, Timeline, Finanzierung und Stakeholder-Rollen.
 - [Timeline](vision/timeline.md) -- Roadmap von Freelancer bis Bildungsgutscheine
 - [Finanzierung](vision/finanzierung.md) -- Funding-Modell und Mittelverwendung
 - [Rollen & Zielgruppen](vision/rollen-und-zielgruppen.md) -- 9 Stakeholder-Gruppen
+- [Wirkung & Nachhaltigkeit](vision/wirkung-und-nachhaltigkeit.md) -- SROI 8:1, SDGs, CO2-Bilanz
+- [Gesellschaftliche Verantwortung](vision/gesellschaftliche-verantwortung.md) -- Inklusion, Datenschutz, Open Source, CSR
+- [Code of Conduct](vision/code-of-conduct.md) -- Verhaltensregeln für alle Beteiligten
 
 ### [Außenkommunikation](aussenkommunikation/uebersicht.md)
 
@@ -47,16 +50,20 @@ Technische Architektur aller Systeme (englisch).
 - [Learning Paths Frontend](technik/learning-paths-frontend.md) -- Vue App (my-paths)
 - [Learn IT Berlin](technik/learn-it-berlin.md) -- Event/Meetup App
 - [Crowdfunding](technik/crowdfunding.md) -- Crowdfunding Platform
+- [CI/CD](technik/ci-cd.md) -- Forgejo Actions, GitHub Actions, Deployment Patterns
+- [Websites & Kommunikation](technik/websites-und-kommunikation.md) -- Astro Sites, Mautic, Matomo, Shared Theme
+- [Design System](technik/design-system.md) -- @abschluss/theme, DaisyUI, Fonts
 - [ADRs](technik/adrs.md) -- Architecture Decision Records
 
 ### [Qualitätsmanagement & AZAV](qm/uebersicht.md)
 
-QM-System, AZAV-Zertifizierung, Prozesse, Zugangskontrolle.
+QM-Architektur und Querschnittsthemen. Das vollständige QM-Handbuch (47 Dokumente, AZAV-auditfähig) liegt in [`website/qm.abschluss.jetzt`](https://qm.abschluss.jetzt).
 
-- [Übersicht](qm/uebersicht.md) -- QM-Rahmen und AZAV-Anforderungen
-- [Prozesse](qm/prozesse.md) -- Kernprozesse des Bildungsträgers
-- [Zugangskontrolle](qm/zugangskontrolle.md) -- Keycloak-Rollen und Berechtigungen
-- [Dokumentenlenkung](qm/dokumentenlenkung.md) -- Wo liegt was, wie wird aktualisiert
+- [Übersicht](qm/uebersicht.md) -- Navigation: QM-Handbuch, Werkzeuge, Zeitplan
+- [Prozessmodellierung](qm/prozessmodellierung.md) -- FitSM + ITIL: Framework-Wahl, Maturity-Roadmap
+- [Prozesse](qm/prozesse.md) -- Zusammenfassung der 6 Kernprozesse mit FitSM-Mapping
+- [Zugangskontrolle](qm/zugangskontrolle.md) -- Keycloak-Architektur, Kohorten, Zugangsmatrix
+- [Dokumentenlenkung](qm/dokumentenlenkung.md) -- Wo liegt was? Systeme und Verantwortlichkeiten
 
 ## Quellen
 
