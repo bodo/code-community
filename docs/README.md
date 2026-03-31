@@ -61,6 +61,7 @@ QM-Architektur und Querschnittsthemen. Das vollständige QM-Handbuch (47 Dokumen
 
 - [Übersicht](qm/uebersicht.md) -- Navigation: QM-Handbuch, Werkzeuge, Zeitplan
 - [Prozessmodellierung](qm/prozessmodellierung.md) -- FitSM + ITIL: Framework-Wahl, Maturity-Roadmap
+- [Self-Assessment](qm/self-assessment.md) -- FitSM-6 Reifegrdbewertung, Gaps, Massnahmenplan
 - [Prozesse](qm/prozesse.md) -- Zusammenfassung der 6 Kernprozesse mit FitSM-Mapping
 - [Zugangskontrolle](qm/zugangskontrolle.md) -- Keycloak-Architektur, Kohorten, Zugangsmatrix
 - [Dokumentenlenkung](qm/dokumentenlenkung.md) -- Wo liegt was? Systeme und Verantwortlichkeiten

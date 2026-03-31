@@ -35,6 +35,7 @@ nav:
   - Qualitätsmanagement & AZAV:
       - Übersicht: qm/uebersicht.md
       - Prozessmodellierung: qm/prozessmodellierung.md
+      - Self-Assessment: qm/self-assessment.md
       - Prozesse: qm/prozesse.md
       - Zugangskontrolle: qm/zugangskontrolle.md
       - Dokumentenlenkung: qm/dokumentenlenkung.md
