@@ -120,6 +120,51 @@ flowchart LR
 
 ---
 
+## Prinzip: Definieren → Checkliste → Automatisieren
+
+Prozesse durchlaufen drei Reifegrade. Die Reihenfolge ist bewusst gewählt — Automatisierung ist der letzte Schritt, nicht der erste.
+
+```mermaid
+flowchart LR
+    S1["Schicht 1<br><b>Prozessbeschreibung</b><br>WAS passiert?"] --> S2["Schicht 2<br><b>Checkliste / Laufzettel</b><br>Exakte Schritte, testbar"] --> S3["Schicht 3<br><b>Automation</b><br>Implementiert in Code"]
+```
+
+| Schicht | Werkzeug | Frage die beantwortet wird |
+| --- | --- | --- |
+| **1 — Prozessbeschreibung** | QM-Handbuch (Git/mkdocs) | Was passiert, in welcher Reihenfolge, wer ist verantwortlich? |
+| **2 — Checkliste** | OpenProject-Ticket-Template | Was genau sind die Schritte? Welche Varianten gibt es? Welche Informationen werden an wen übergeben? |
+| **3 — Automation** | n8n-Workflow | Welche Schritte können maschinell ausgeführt werden? |
+
+### Warum diese Reihenfolge?
+
+**Bevor man automatisiert, muss man den Prozess so exakt definiert haben, dass man ihn einem Computer erklären kann.** Die Checkliste IST diese exakte Definition — menschenlesbar und in der Praxis testbar. Erst wenn die Checkliste funktioniert und die Abweichungen bekannt sind, lohnt sich Automation.
+
+### Reifeverlauf
+
+| Phase | Methode | Passt zu |
+| --- | --- | --- |
+| **Gründung (jetzt)** | Checkliste in OpenProject, manuell abhaken | 1-2 Personen, wenige Vorgänge, Prozesse noch im Fluss |
+| **Wachstum** | n8n automatisiert den Happy Path, Checkliste bleibt für Ausnahmen | Mehr Beteiligte, Wiederholungen, Prozesse stabil |
+| **Reife** | Automation ist Standard, Checkliste nur noch für Sonderfälle | Skalierung, Delegation |
+
+**Faustregel:** Wenn du den gleichen Laufzettel zum 10. Mal manuell durcharbeitest, weisst du exakt, was automatisierbar ist und was nicht.
+
+### Umgang mit Abweichungen
+
+Automation bildet den **Happy Path** ab — den Normalfall. Bildung hat aber ständig Abweichungen (kurzfristige Anmeldung, fehlende Unterlagen, Dozent sagt ab). Diese Fälle werden nicht im Workflow abgebildet, sondern im Ticket dokumentiert:
+
+> **Der Workflow ist der Soll-Prozess. Das Ticket ist der Ist-Nachweis. Abweichungen werden im Ticket dokumentiert, nicht im Workflow.**
+
+| Situation | Normal (automatisch) | Abweichung (manuell) |
+| --- | --- | --- |
+| Beratungsgespräch | n8n erstellt Ticket nach Formulareingang | Projektleitung erstellt Ticket manuell |
+| Keycloak-Enrollment | n8n benachrichtigt IT-Admin | IT-Admin dokumentiert im Ticket: "Manuell angelegt weil..." |
+| Willkommens-Mail | n8n sendet automatisch | Ticket-Kommentar: "Kein E-Mail, Info telefonisch" |
+
+Für den AZAV-Auditor: Er will nicht sehen, dass nie etwas schiefgeht. Er will sehen, dass Abweichungen **erkannt, dokumentiert und bei Bedarf als CAPA behandelt** werden.
+
+---
+
 ## Lernressourcen (kostenlos)
 
 | Ressource | URL | Inhalt |
