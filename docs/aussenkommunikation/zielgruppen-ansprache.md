@@ -71,6 +71,34 @@
 | **Pilotprojekt mit einem JobCenter** | Ein JobCenter-Standort als Partner für erste AVGS-geförderte Teilnehmer nach AZAV-Zertifizierung. Erfolgsquote dokumentieren, dann skalieren. | Ab Q1 2027 (nach AZAV) |
 | **Quartalsbericht an Fördermittelgeber** | Transparente Wirkungsdaten: Bestehensquote, Abbruchquote, Verbleib nach 6 Monaten. Stärkt Vertrauen und liefert Argumente für Folgefinanzierung. | Quartalsweise ab AZAV |
 
+## Ausländische IT-Fachkräfte
+
+**Kernbotschaft:** Sprachkurs + Intensivvorbereitung statt 2-Jahres-Umschulung. Schneller, günstiger, zielgerichteter.
+
+**Das Problem:** Erfahrene IT-Fachkräfte aus dem Ausland (Admins, Entwickler, Projektmanager) haben einen nicht anerkannten Abschluss. Der klassische Weg — 2-Jahres-Umschulung — ist für sie fachlich überflüssig. Parallel laufende Sprachförderung führt dazu, dass sie den Fachunterricht verpassen.
+
+**Unser Modell:** Erst Sprachkurs (B2-C1), dann gezielte IHK-Prüfungsvorbereitung (3-6 Monate). Sequenziell statt parallel.
+
+**Argumente:**
+
+- 50-60% günstiger als 2-Jahres-Umschulung für den Kostenträger
+- 9-18 Monate statt 24 Monate bis zum Abschluss
+- Kein verpasster Fachunterricht durch parallele Sprachförderung
+- Fachlich passgenaue Vorbereitung statt Anfänger-Curriculum
+- IHK-Abschluss = volle Anerkennung auf dem deutschen Arbeitsmarkt
+
+**Kanäle:** Ukrainehilfe e.V. Berlin, IQ Netzwerk, Migrationsberatungsstellen, Community-Telegram-Gruppen, JobCenter-Fallmanager
+
+**Konkrete Massnahmen:**
+
+| Massnahme | Beschreibung | Zeitraum |
+| --- | --- | --- |
+| **Kooperation Ukrainehilfe e.V.** | Gemeinsame Ansprache ukrainischer IT-Fachkräfte in Berlin. Ukrainehilfe vermittelt TN, unterstützt mit Sach-/Finanzmitteln. | Ab KW15/2026 |
+| **One-Pager (DE/EN/UK)** | Extern-Prüfungs-Modell mit Kosten-Nutzen-Vergleich: 2-Jahres-Umschulung vs. Sprachkurs + Intensiv. Für TN und für JobCenter. | KW16/2026 |
+| **Kosten-Nutzen-Rechnung für JobCenter** | PDF: Einsparung 23.000-67.000 EUR pro Person. Bei 10 TN/Jahr: 230.000-670.000 EUR. | KW16/2026 |
+| **Pilotgruppe** | 3-5 ukrainische IT-Fachkräfte über Ukrainehilfe identifizieren, Sprachstand prüfen, Prüfungsvorbereitung starten | KW17-20/2026 |
+| **Sprachschul-Kooperation** | Partnerschaft mit VHS oder privater Sprachschule für sequenzielles Modell (Sprache → Prüfung) | Q3/2026 |
+
 ## Ehrenamtliche Mentoren
 
 **Kernbotschaft:** 15 Minuten am Tag können einen Berufsabschluss retten.
