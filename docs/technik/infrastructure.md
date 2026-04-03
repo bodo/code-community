@@ -69,6 +69,23 @@ Secrets in `group_vars/vault.yml` (Ansible Vault encrypted).
 | MariaDB dumps | Daily 03:00 | 14 days | `/var/backups/mariadb/` on vps3 |
 | Forgejo full dump | Daily 03:30 | 14 days | `/var/backups/forgejo/` on vps3 |
 
+## Ideas / Early Planning
+
+### JetBrains Remote Development (Developer Workspaces)
+
+> Status: Early planning / Idea — Umsetzung abhängig von Vorbedingungen der Geschäftsführung
+
+Zentral verwaltete Developer-Workspaces auf dem Server via [JetBrains Remote Development](https://www.jetbrains.com/remote-development/). Teilnehmer arbeiten auf vorkonfigurierten Umgebungen — kein lokales Setup nötig, funktioniert auch auf Refurbished-Hardware.
+
+**Voraussetzungen:**
+
+- Kooperationsvereinbarung mit JetBrains (Non-Profit Teams/Enterprise-Lizenz) — GF-Entscheidung
+- Server-Kapazität: GPU/CPU für Code-Execution, ggf. zusätzliche Proxmox-Ressourcen
+- Workspace-Provisionierung (LXC oder Docker pro Teilnehmer)
+- Keycloak-Integration für Zugangssteuerung
+
+**Abhängigkeit:** GF muss JetBrains-Kooperation verhandeln bevor technische Umsetzung beginnt.
+
 ## Sources
 
 - `../../infrastructure/README.md` — Repository overview
