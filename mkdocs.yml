@@ -13,6 +13,18 @@ nav:
       - Wirkung & Nachhaltigkeit: vision/wirkung-und-nachhaltigkeit.md
       - Gesellschaftliche Verantwortung: vision/gesellschaftliche-verantwortung.md
       - Code of Conduct: vision/code-of-conduct.md
+  - Werte & Gesellschaftliche Verantwortung:
+      - Übersicht: vision/werte/README.md
+      - Soziale Verantwortung: vision/werte/soziale-verantwortung.md
+      - Ökologische Verantwortung: vision/werte/oekologische-verantwortung.md
+      - Digitale Souveränität: vision/werte/digitale-souveraenitaet.md
+      - Freie Bildung: vision/werte/freie-bildung.md
+      - Governance & Ethik: vision/werte/governance-und-ethik.md
+      - Präambel-Textbaustein: vision/werte/praeambel-textbaustein.md
+      - Wirkungsbericht:
+          - Einführung: vision/werte/wirkungsbericht/README.md
+          - Vorlage (SRS): vision/werte/wirkungsbericht/vorlage.md
+          - "Bericht 2026": vision/werte/wirkungsbericht/2026.md
   - Außenkommunikation:
       - Übersicht: aussenkommunikation/uebersicht.md
       - Lehrplan & Angebot: aussenkommunikation/lehrplan-und-angebot.md

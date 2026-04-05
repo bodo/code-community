@@ -1,5 +1,7 @@
 # Gesellschaftliche Verantwortung
 
+> **Hinweis:** Dieses Dokument ist ein älteres Detail-Dokument. Der zusammenhängende Einstieg zu Werten, CSR und Wirkungsbericht ist das neue Kapitel **[Werte & Gesellschaftliche Verantwortung](werte/README.md)**. Die Inhalte hier sind weiterhin gültig und werden aus den neuen Dokumenten verlinkt.
+
 ## Leitbild
 
 abschluss.jetzt versteht sich als gemeinnütziges Social Enterprise mit gesellschaftlichem Auftrag: Zugang zu hochwertiger IT-Bildung unabhängig von finanziellen Mitteln, Herkunft oder Vorbildung.
