@@ -38,6 +38,8 @@ Die vollständige Prozessdokumentation mit Ablaufdiagrammen, Verantwortlichkeite
 
 **Werkzeuge:** OpenProject (Tracking), n8n (automatisierte Erinnerungen), CiviCRM (Absolventendaten)
 
+**Technische Verfügbarkeits-/SLA-Messung:** Prometheus + Grafana + Uptime Kuma, Design siehe `infrastructure/docs/monitoring-and-logging-concept.md`. Liefert monatliche SLA-Reports als Audit-Evidenz (relevant für AZAV).
+
 **Detail:** QM-Handbuch → 03-kernprozesse/erfolgsmonitoring | 08-verbesserung/kennzahlen
 
 ## 4. Feedbackschleifen

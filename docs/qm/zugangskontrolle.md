@@ -56,6 +56,10 @@ Kohorten-IDs folgen dem Muster `YYMMDD` -- Startdatum des IHK-Prüfungssemesters
 
 Teilnehmer werden per Ansible-Playbook in Keycloak importiert: YAML mit Teilnehmerdaten → Keycloak erstellt Benutzer → Verifizierungs-E-Mail → Teilnehmer setzt Passwort → SSO-Zugang. Keine geteilten Standard-Passwörter.
 
+### Nachvollziehbarkeit von Zugriffen
+
+Authentifizierungs- und Zugriffs-Logs (Keycloak auth events, Apache access, fail2ban, Postfix) werden wöchentlich im Schema `<service>-<name>-YYYY-Www.log.gz` rotiert und per `rsync` (Pull-Modell) auf einen off-site Log-Collector gezogen. Retention im Audit-Baum: ≥ 3 Jahre. Details und Begründung siehe `../../infrastructure/docs/monitoring-and-logging-concept.md`.
+
 ## Quellen
 
 - [QM-Handbuch → Zugangskontrolle](https://qm.abschluss.jetzt) -- Formale Dokumentation für AZAV-Audit
