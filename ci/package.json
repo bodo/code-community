@@ -1,0 +1,21 @@
+{
+  "name": "@abschluss/ci",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Central build foundation for abschluss.jetzt — design tokens and Mautic email theme source.",
+  "scripts": {
+    "build": "node generators/build-all.mjs",
+    "build:tokens": "node generators/build-tokens.mjs",
+    "build:mautic": "node generators/build-mautic.mjs",
+    "check": "node generators/build-all.mjs && git diff --exit-code build/",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "deploy:mautic": "./scripts/deploy-mautic-theme.sh"
+  },
+  "devDependencies": {
+    "mjml": "^4.15.3",
+    "html-validate": "^8.27.0",
+    "vitest": "^2.1.9"
+  }
+}

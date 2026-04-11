@@ -1,0 +1,10 @@
+<mj-section padding="24px 0 16px 0">
+  <mj-column>
+    <mj-text align="center" color="TOKEN:color-dark-bg" font-size="20px" font-weight="700" letter-spacing="-0.02em">
+      abschluss.jetzt
+    </mj-text>
+    <mj-text align="center" color="TOKEN:color-light-muted" font-size="12px" padding-top="4px">
+      Gemeinnützige IHK-Prüfungsvorbereitung für Fachinformatiker
+    </mj-text>
+  </mj-column>
+</mj-section>

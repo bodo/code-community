@@ -1,0 +1,18 @@
+<mj-section padding="24px 0 16px 0">
+  <mj-column>
+    <mj-divider border-color="TOKEN:color-light-border" border-width="1px" padding-bottom="16px" />
+    <mj-text align="center" color="TOKEN:color-light-muted" font-size="12px" line-height="18px">
+      abschluss.jetzt &middot; Bodo Eichstädt &middot; Berlin
+    </mj-text>
+    <mj-text align="center" color="TOKEN:color-light-muted" font-size="12px" line-height="18px">
+      Ein gemeinnütziges Bildungsprojekt. Kostenlos und quelloffen.
+    </mj-text>
+    <mj-text align="center" color="TOKEN:color-light-muted" font-size="11px" padding-top="12px">
+      <a href="{unsubscribe_url}" style="color: TOKEN:color-light-muted;">Abmelden</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://abschluss.jetzt/de/datenschutz/" style="color: TOKEN:color-light-muted;">Datenschutz</a>
+      &nbsp;&middot;&nbsp;
+      <a href="https://abschluss.jetzt/de/impressum/" style="color: TOKEN:color-light-muted;">Impressum</a>
+    </mj-text>
+  </mj-column>
+</mj-section>

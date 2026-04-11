@@ -1,0 +1,83 @@
+{
+  "$schema": "./design-tokens.schema.json",
+  "meta": {
+    "name": "abschluss-jetzt",
+    "version": "1.0.0",
+    "description": "Central design tokens for abschluss.jetzt. Source of truth for Astro website, Typst eBooks, Reveal.js deck and Mautic email theme."
+  },
+  "colors": {
+    "primary": {
+      "50":  "#eff6ff",
+      "100": "#dbeafe",
+      "200": "#bfdbfe",
+      "300": "#93c5fd",
+      "400": "#60a5fa",
+      "500": "#3b82f6",
+      "600": "#2563eb",
+      "700": "#1d4ed8",
+      "800": "#1e40af",
+      "900": "#1e3a8a"
+    },
+    "accent": {
+      "400": "#34d399",
+      "500": "#10b981",
+      "600": "#059669"
+    },
+    "semantic": {
+      "warning": "#f59e0b",
+      "danger":  "#ef4444",
+      "success": "#10b981",
+      "info":    "#3b82f6"
+    },
+    "dark": {
+      "bg":      "#0f172a",
+      "surface": "#1e293b",
+      "border":  "#334155",
+      "text":    "#e2e8f0",
+      "muted":   "#94a3b8"
+    },
+    "light": {
+      "bg":      "#f8fafc",
+      "surface": "#ffffff",
+      "border":  "#e2e8f0",
+      "text":    "#1e293b",
+      "muted":   "#64748b"
+    }
+  },
+  "typography": {
+    "fontSans": "\"Inter\", ui-sans-serif, system-ui, sans-serif",
+    "fontMono": "\"JetBrains Mono\", ui-monospace, monospace",
+    "fontSerif": "Georgia, Cambria, \"Times New Roman\", serif"
+  },
+  "radius": {
+    "sm": "0.25rem",
+    "md": "0.5rem",
+    "lg": "0.75rem",
+    "xl": "1rem",
+    "full": "9999px"
+  },
+  "shadows": {
+    "sm": "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+    "md": "0 4px 6px -1px rgb(0 0 0 / 0.1)",
+    "lg": "0 10px 15px -3px rgb(0 0 0 / 0.1)",
+    "xl": "0 20px 25px -5px rgb(0 0 0 / 0.1)"
+  },
+  "email": {
+    "contentWidth": "600px",
+    "bodyBackground": "#f8fafc",
+    "cardBackground": "#ffffff",
+    "textPrimary": "#1e293b",
+    "textMuted": "#64748b",
+    "linkColor": "#2563eb",
+    "buttonBackground": "#2563eb",
+    "buttonText": "#ffffff"
+  },
+  "deck": {
+    "heading": "#38bdf8",
+    "accent": "#38bdf8",
+    "green": "#4ade80",
+    "orange": "#fb923c",
+    "red": "#ff1b1b",
+    "muted": "#94a3b8"
+  }
+}

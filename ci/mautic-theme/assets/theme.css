@@ -1,0 +1,7 @@
+/* Minimal additional styles for the Abschluss Mautic email theme.
+ * Most styling is inlined via MJML — this file is only loaded in the
+ * Mautic web preview, not in the actual outgoing email.
+ */
+body {
+  font-family: "Inter", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+}

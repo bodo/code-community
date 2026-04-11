@@ -1,0 +1,18 @@
+/* AUTO-GENERATED — do not edit. Source: ci/design-tokens.json */
+/* Regenerate with: cd ci && npm run build:tokens */
+
+:root {
+  --r-background-color: #0f172a;
+  --r-main-color: #e2e8f0;
+  --r-heading-color: #38bdf8;
+  --r-link-color: #38bdf8;
+  --r-selection-background-color: #38bdf880;
+  --r-selection-color: #e2e8f0;
+
+  /* Custom shortcuts used by the deck (bright variants for projector contrast) */
+  --abschluss-accent: #38bdf8;
+  --abschluss-green: #4ade80;
+  --abschluss-orange: #fb923c;
+  --abschluss-red: #ff1b1b;
+  --abschluss-muted: #94a3b8;
+}

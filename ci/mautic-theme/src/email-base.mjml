@@ -1,0 +1,51 @@
+<mjml>
+  <mj-head>
+    <mj-title>abschluss.jetzt</mj-title>
+    <mj-preview>SLOT:preview</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="Inter, -apple-system, Segoe UI, Helvetica, Arial, sans-serif" />
+      <mj-text color="TOKEN:color-light-text" font-size="15px" line-height="24px" />
+      <mj-button background-color="TOKEN:email-buttonBackground" color="TOKEN:email-buttonText" font-weight="600" font-size="15px" padding="14px 24px" border-radius="8px" />
+      <mj-section background-color="TOKEN:email-cardBackground" />
+    </mj-attributes>
+    <mj-style>
+      a { color: TOKEN:email-linkColor; }
+      .muted { color: TOKEN:color-light-muted; font-size: 13px; }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="TOKEN:email-bodyBackground" width="TOKEN:email-contentWidth">
+
+    <!-- header partial is inlined by the build script -->
+    <!-- INCLUDE:partials/header.mjml -->
+
+    <!-- optional subject reminder (one-liner under the header) -->
+    <mj-section padding="0 24px 8px 24px">
+      <mj-column>
+        <mj-text align="center" css-class="muted">
+          <!-- SLOT:subject_reminder -->
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- main content -->
+    <mj-section padding="16px 24px">
+      <mj-column>
+        <mj-text>
+          <!-- SLOT:content -->
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- call-to-action block (button + fine-print) -->
+    <mj-section padding="8px 24px 24px 24px">
+      <mj-column>
+        <!-- SLOT:cta -->
+      </mj-column>
+    </mj-section>
+
+    <!-- footer partial -->
+    <!-- INCLUDE:partials/footer.mjml -->
+
+  </mj-body>
+</mjml>
