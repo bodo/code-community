@@ -1,5 +1,7 @@
 # Soziale Verantwortung
 
+> Öffentliche Präsenz: <https://abschluss.jetzt/de/werte/>
+
 > Das "S" in ESG: Wie wir Zugang schaffen, Teilhabe ermöglichen und mit Sprache umgehen.
 
 ## Chancengleichheit

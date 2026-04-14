@@ -1,5 +1,7 @@
 # Digitale Souveränität
 
+> Öffentliche Präsenz: <https://abschluss.jetzt/de/werte/>
+
 > Wer anderen IT beibringt, sollte selbst keine digitalen Abhängigkeiten aufbauen, die er seinen Lernenden abrät.
 
 ## Grundhaltung

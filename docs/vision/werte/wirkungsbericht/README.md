@@ -1,5 +1,7 @@
 # Wirkungsbericht (Social Reporting Standard)
 
+> **Öffentliche Werte-Präsenz:** <https://abschluss.jetzt/de/werte/>
+>
 > Jährlicher Bericht über Ressourcen, Leistungen und Wirkung -- nach dem Social Reporting Standard (SRS), dem etablierten Reporting-Rahmen für gemeinnützige Social Enterprises im deutschsprachigen Raum.
 
 ## Warum SRS?

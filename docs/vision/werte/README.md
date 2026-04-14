@@ -1,5 +1,7 @@
 # Werte & Gesellschaftliche Verantwortung
 
+> **Öffentliche Präsenz:** <https://abschluss.jetzt/de/werte/> ([English](https://abschluss.jetzt/en/values/))
+>
 > **Bildung ist ein Gemeinschaftsgut.** abschluss.jetzt macht hochwertige IT-Prüfungsvorbereitung unabhängig von Geldbeutel, Herkunft oder Vorbildung zugänglich -- und dokumentiert offen, was das bewirkt.
 
 ## Leitbild

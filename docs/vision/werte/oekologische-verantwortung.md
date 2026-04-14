@@ -1,5 +1,7 @@
 # Ökologische Verantwortung
 
+> Öffentliche Präsenz: <https://abschluss.jetzt/de/werte/>
+
 > Das "E" in ESG: Was ein IT-Bildungsträger für die ökologischen Grenzen des Planeten tun kann -- und was nicht.
 
 ## Grundhaltung

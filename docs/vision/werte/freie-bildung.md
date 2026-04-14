@@ -1,5 +1,7 @@
 # Freie Bildung
 
+> Öffentliche Präsenz: <https://abschluss.jetzt/de/werte/>
+
 > "Think free as in free speech, not as in free beer." -- Richard Stallman, GNU Project
 
 ## Die Unterscheidung, die alles ändert

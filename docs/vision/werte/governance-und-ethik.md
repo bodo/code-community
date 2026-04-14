@@ -1,5 +1,7 @@
 # Governance & Ethik
 
+> Öffentliche Präsenz: <https://abschluss.jetzt/de/werte/>
+
 > Das "G" in ESG: Wer entscheidet, wie wird entschieden, und wer kontrolliert -- transparent, nachvollziehbar, fair.
 
 ## Gemeinnützigkeit als Bindung

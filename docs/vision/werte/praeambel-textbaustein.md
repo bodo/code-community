@@ -1,5 +1,7 @@
 # Präambel-Textbaustein für Verträge
 
+> Öffentliche Präsenz: <https://abschluss.jetzt/de/werte/>
+
 > Diese Werte sind verbindlich. Deshalb stehen sie in jedem Vertrag -- nicht nur auf der Website.
 
 Dieser Textbaustein ist für die Übernahme in Teilnahme-, Dozenten-, Sponsoring-, Hosting- und Kooperationsverträge vorgesehen. Er verankert die Werte-Charta als Vertragsgrundlage und macht Verstöße justiziabel.
